@@ -835,10 +835,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
     transition: transform 0.3s, background 0.3s;
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
 }
 
 .social-icon:hover {
